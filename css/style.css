@@ -109,7 +109,7 @@ header {
 
 /* line 5, ../sass/components/main/_extends.scss */
 .splash {
-  background-image: url("/images/bg-image.jpg");
+  background-image: url("../images/bg-image.jpg");
   background-position: right;
   height: 300px;
 }
