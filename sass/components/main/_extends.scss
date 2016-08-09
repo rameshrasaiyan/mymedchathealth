@@ -1,0 +1,86 @@
+%main {
+  position: relative;
+}
+
+%splash {
+  background-image: url("/images/bg-image.jpg");
+  background-position: right;
+  height: 300px;
+}
+
+%splash-title {
+  font-family: 'Taviraj', serif;
+  font-size: 1.5em;
+  position: relative;
+  left: 100px;
+  padding: 2em 0 0 0;
+  display: inline-block;
+}
+
+%splash-p {
+  width: 40%;
+  position: relative;
+  left: 100px;
+  padding-top: 1em;
+  line-height: 28px;
+}
+
+.box-shadow {
+  -moz-box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+  -webkit-box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+  box-shadow: 0 0.15em 0.35em 0 rgba(0,0,0,0.135);
+}
+
+%box-wrapper {
+  padding: 2em;
+  overflow: hidden;
+  clear: both;
+}
+
+%box {
+  &:nth-of-type(3n+1) {
+    @include grid-span(1, 1, 3, $_three-column-gutter);
+  }
+  &:nth-of-type(3n+2) {
+    @include grid-span(1, 2, 3, $_three-column-gutter);
+  }
+  &:nth-of-type(3n+3) {
+    @include grid-span(1, 3, 3, $_three-column-gutter);
+  }
+  height: 300px;
+}
+
+%box-title {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+  font-family: 'Taviraj', serif;
+}
+
+%box-icon {
+  font-size: 3em;
+  color: #79B34D;
+  text-align: center;
+  padding-bottom: .3em;
+}
+
+%box-content {
+  padding: 1em;
+  line-height: 18px;
+  font-size: .900em;
+  color: #909090;
+}
+
+%box-item {
+  padding-top: .5em;
+
+  a {
+    text-decoration: none;
+    color: #79B34D;
+
+    &:hover {
+      color: #909090;
+    }
+  }
+
+}

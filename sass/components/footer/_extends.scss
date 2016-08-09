@@ -1,0 +1,58 @@
+%footer {
+  background: #181818;
+  height: 75px;
+  padding: 1em;
+  color: rgba(255,255,255,0.40);
+  font-size: .850em;
+  overflow: hidden;
+  clear: both;
+}
+
+%left {
+  float: left;
+  width: 50%;
+}
+
+%right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+%social-wrapper {
+  padding-bottom: .5em;
+
+  a {
+    color: rgba(255,255,255,0.40);
+    padding-right: 1em;
+    display: inline-block;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+%address-wrapper {
+  padding-bottom: .5em;
+}
+
+%phone-number {
+  padding-bottom: .5em;
+  a {
+    color: rgba(255,255,255,0.40);
+    text-decoration: none;
+  }
+}
+
+%terms {
+  a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.40);
+    border-bottom: 1px dotted #444;
+
+    &:hover {
+      border-bottom: 1px solid #444;
+    }
+  }
+}

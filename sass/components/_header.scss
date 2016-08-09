@@ -1,0 +1,22 @@
+@import "header/extends";
+@import "header/variables";
+
+body {
+  @extend %body;
+}
+
+header {
+  @extend %header;
+}
+
+.logo-link {
+  @extend %logo-link;
+}
+
+.logo {
+  @extend %logo;
+}
+
+.login-btn {
+  @extend %login-btn;
+}

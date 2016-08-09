@@ -1,0 +1,30 @@
+@import "footer/variables";
+@import "footer/extends";
+
+.footer-wrapper {
+  @extend %footer;
+}
+
+.left {
+  @extend %left;
+}
+
+.right {
+  @extend %right;
+}
+
+.social-wrapper {
+  @extend %social-wrapper;
+}
+
+.address-wrapper {
+  @extend %address-wrapper;
+}
+
+.phone-number {
+  @extend %phone-number;
+}
+
+.terms {
+  @extend %terms;
+}

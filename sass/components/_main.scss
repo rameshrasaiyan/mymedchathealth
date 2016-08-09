@@ -1,0 +1,42 @@
+@import "main/variables";
+@import "main/extends";
+
+.main {
+  @extend %main;
+}
+
+.splash {
+  @extend %splash;
+}
+
+.splash-title {
+  @extend %splash-title;
+}
+
+.splash-p {
+  @extend %splash-p;
+}
+
+.box-wrapper {
+  @extend %box-wrapper;
+}
+
+.box {
+  @extend %box;
+}
+
+.box-title {
+  @extend %box-title;
+}
+
+.box-icon {
+  @extend %box-icon;
+}
+
+.box-content {
+  @extend %box-content;
+}
+
+.box-item {
+  @extend %box-item;
+}
